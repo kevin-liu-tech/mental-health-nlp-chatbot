@@ -1,0 +1,108 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "How are you doing",
+              "Is anyone there?",
+              "What's up?",
+              "Hello",
+              "Good day",
+              "What's popping"
+          ],
+          "responses": [
+              "Hey! Welcome to Aura.",
+              "Hi there, I'm doing well! My name's Aura, what can I do for you?",
+              "Hey there, my name's Aura, your mental health friend. How can I help you today?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+          "responses": [
+              "See you later! Take care!",
+              "Have a lovely day! Take care and stay safe!",
+              "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+          "tag": "about",
+          "patterns": [
+              "What do you do?",
+              "Who are you?",
+              "What are you here for?",
+              "What can you help me with?",
+              "Is anyone there?",
+              "Are you a real person?",
+              "Tell me about yourself!"
+          ],
+          "responses": [
+              "Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+              "Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+          ]
+      },
+      {
+          "tag": "anxiety",
+          "patterns": [
+              "I think I have anxiety",
+              "What is anxiety?",
+              "Tell me about anxiety",
+              "Can I have some information about anxiety?",
+              "How do I support a loved one with anxiety?",
+              "How do I fix my anxiety?"
+          ],
+          "responses": [
+              "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+          ]
+      },
+      {
+          "tag": "depression",
+          "patterns": [
+              "I think I have depression",
+              "What is depression?",
+              "Tell me about depression",
+              "Can I have some information about depression?",
+              "How do I support a loved one with depression?",
+              "How do I fix my depression?"
+          ],
+          "responses": [
+              "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+          ]
+      },
+      {
+          "tag": "schizophrenia",
+          "patterns": [
+              "I think I have schizophrenia",
+              "What is schizophrenia?",
+              "Tell me about schizophrenia",
+              "Can I have some information about schizophrenia?",
+              "How do I support a loved one with schizophrenia?",
+              "How do I fix my schizophrenia?"
+          ],
+          "responses": [
+              "I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. At the higest level, Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual."
+          ]
+      },
+      {
+          "tag": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+          ],
+          "responses": [
+              "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison!",
+              "I invented a new word! Plagiarism!"
+          ]
+      }
+  ]
+}
